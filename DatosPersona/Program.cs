@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace IngresarDatos //este nombre sirve para que si alguien quiere utilizar mi trabajo pueda acceder con ese nombre --> using MiPrimeraApp.consola
+namespace DatosPersona 
 {
     class Program
     {
@@ -59,21 +59,5 @@ namespace IngresarDatos //este nombre sirve para que si alguien quiere utilizar 
             Console.Write("Gracias por su participacion... Digite cualquier tecla para finalizar. ");
             Console.ReadKey();
         }
-    }
-}
-namespace IngresarDatos
-{
-    class Persona
-    {
-        public int cedula;
-        public string nombre;
-        public string apellido;
-        public int edad;
-        public string sexo;
-        public float estatura;
-        public string ciudadNacimiento;
-        public string ciudadResidencia;
-        public int celular;
-        public string correo;
     }
 }
